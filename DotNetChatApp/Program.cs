@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using SignalRChat.Hubs;
 namespace DotNetChatApp
 {
     public class Program
@@ -23,4 +23,5 @@ namespace DotNetChatApp
                     webBuilder.UseStartup<Startup>();
                 });
     }
+
 }
